@@ -1,0 +1,215 @@
+
+h1{
+    color: crimson;
+    text-align: center;
+}
+body {
+    font: 16px/1.4 'Mulish', sans-serif;
+    color: #333;
+    background: #e3e9ff;
+}
+
+#wrapper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    margin: 0 auto;
+}
+#header {
+    background: #70b3ff;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+.main {
+    padding: 30px;
+}
+#textform {
+    position: relative;
+    margin: 0 0 20px;
+}
+
+#textform input {
+    border: 1px solid black;
+    padding: 10px 100px 10px 10px;
+    width: 100%;
+    height: 50px;
+    font: 16px/1.4 'Mulish', sans-serif;
+    color: #333;
+}
+
+#textform button {
+    padding: 0 1em;
+    font: 16px/1.4 'Mulish', sans-serif;
+    background: #7cafe9;
+    color:blueviolet;
+    font-size: large;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 40px;
+    transition: opacity 0.3s linear;
+}
+
+button:focus,
+input[type="text"]:focus {
+    outline:solid black 2px;
+    
+}
+
+
+ul {
+    list-style:solid black 2px;
+    margin: 10px;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px;
+    padding: 3px;
+    outline: solid blue 2px;
+}
+
+
+
+#textform button:hover {
+    opacity: 0.7;
+}
+#addList li {
+    padding: 20px;
+    margin: 0 0 10px;
+    border-radius: .2em;
+    border: 1px solid #eee;
+}
+
+#addList li span,
+#addList li input[type="text"] {
+    font: 20px/1.4 'Mulish', sans-serif;
+    margin: 0 0 5px;
+    display: block;
+}
+
+#addList li input[type="text"] {
+    border: 1px solid #eee;
+    padding: 10px 100px 10px 10px;
+    width: 100%;
+    height: 50px;
+    color: #333;
+}
+
+#addList li label {
+    font-size: 14px;
+    display: block;
+    margin: 0 0 10px;
+    color: rgba(112, 112, 112, .55);
+}
+
+#addList li label input[type="checkbox"] {
+    margin: 0 0 0 5px;
+}
+
+#addList li button {
+    font-size: 14px;
+    margin: 0 5px 0 0;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: white;
+    background: #70b3ff;
+    border: 0;
+    cursor: pointer;
+    transition: opacity 0.3s linear;
+}
+
+#addList li button:last-child {
+    background: #ff7f7f;
+}
+
+#addList li button:hover {
+    opacity: 0.7;
+}
+
+/* 
+responded 
+---------
+*/
+#addList li.responded {
+    transition: 0.4s;
+    border-color: #70b3ff;
+}
+
+#addList li.responded label,
+#addList li.responded span {
+    transition: 0.4s;
+    color: #70b3ff;
+}
+@media only screen and (max-width: 640px) {
+
+    body,
+    #textform input,
+    #textform button {
+        font-size: 14px;
+    }
+
+    #header h1 {
+        font-size: 20px;
+    }
+
+    #addList li span,
+    #addList li input[type="text"] {
+        font-size: 16px;
+    }
+
+    #addList li button {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 840px) {
+    .toDoList {
+    margin: 20px;
+    }
+}
+#addList li.responded {
+    transition: 0.4s;
+    border-color: #70b3ff;
+}
+
+#addList li.responded label,
+#addList li.responded span {
+    transition: 0.4s;
+    color: #70b3ff;
+}
+.wrapper button .che{
+    width:100%;
+    font-size: larger;
+    background-size: 30%;
+    background-color: blue;
+    font-style: bold black;
+    color: black;
+    background-color: azure;
+}
+.wrapper button .unche{
+    width:100%;
+    font-size: larger;
+    background-size: 30%;
+    background-color: blue;
+    font-style: bold black;
+    color: black;
+    background-color: azure;
+
+}
+.wrapper button .all{
+    width:100%;
+    font-size: larger;
+    background-size: 30%;
+    background-color: blue;
+    font-style: bold black;
+    color: black;
+    background-color: azure;
+
+}
+

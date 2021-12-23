@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>TO DO LIST app</title>
+        <link rel="stylesheet" href="todolist.css">
+    
+    </head>
+    <body>
+        <header>
+            <h1>TO DO LIST</h1>
+        </header>
+        <div id="wrapper">
+            <div class="toDoList">
+                <main class="main" id="main">
+                    <form id="textform">
+                        <input name = "name" id = "addInput" type="text" placeholder="enter text">
+                        <button name = "submit" id = "addBtn" type="submit" value="submit"> ADD </button>
+                    </form>
+
+                    <ul id="myUL">
+                        <li>
+                            <span>mango</span>
+                            <label><input type="checkbox"></label>
+                            <button>edit</button>
+                            <button>remove</button>
+                        </li>
+        
+                        <li>  
+                            <span>apple</span>
+                            <label><input type="checkbox"></label>
+                            <button>edit</button>
+                            <button>remove</button>  
+                           
+                        </li>
+                    </ul>
+                    <form id = 'form'>
+
+                        <select class="checkList" id="selc">
+                            <option value="" >Selection</option>
+                            <option value="Checked" >Checked</option>
+                            <option value="Unchecked" >Unchecked</option>
+                            <option value="All" >All</option>
+                        </select>
+
+
+                    </form>
+                   
+
+                    
+                </main>
+            </div>
+        </div>
+         
+        <script src="todolist.js"></script>
+
+    </body>
+</html>
